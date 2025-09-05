@@ -1,0 +1,11 @@
+export default function Home(){
+  return (
+    <div style={{minHeight:'100vh',display:'grid',placeItems:'center',fontFamily:'system-ui,Arial'}}>
+      <div style={{maxWidth:480,background:'#fff',padding:16,borderRadius:12,boxShadow:'0 20px 60px rgba(0,0,0,.06)'}}>
+        <h1>Moe Invests</h1>
+        <p>DEMO – Ladda upp detta på Vercel för att få en direkt länk. Full version kopplas till backend senare.</p>
+        <a href="/stock/AAPL">Gå till exempel-sida</a>
+      </div>
+    </div>
+  )
+}
